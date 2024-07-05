@@ -1,0 +1,11 @@
+﻿LinkedLists.LinkedList list = new LinkedLists.LinkedList();
+list.Add(1);
+list.Add(2);
+list.Add(3);
+Console.WriteLine("After Adding elements to the list");
+list.Print();
+Console.WriteLine();
+Console.WriteLine("After Deleting element from the list");
+list.Delete(2);
+list.Print();
+Console.WriteLine();
